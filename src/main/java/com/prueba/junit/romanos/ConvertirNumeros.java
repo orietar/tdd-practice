@@ -51,15 +51,6 @@ public class ConvertirNumeros {
 		}
 	}
 
-	public static String calcularNota(float nota) {
-		if (nota >= 7) {
-			return "Promocionó";
-		} else if (nota >= 4 && nota <= 6) {
-			return "Aprobado";
-		}
-		return "Desaprobado";
-	}
-
 	public ConvertirNumeros() {
 		this.equivalencias.put('I', 1);
 		this.equivalencias.put('V', 5);
